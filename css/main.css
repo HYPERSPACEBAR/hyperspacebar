@@ -1361,7 +1361,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
     .section-header.has-bottom-sep {
-        padding-bottom: 0;
+        padding-bottom: 2rem;
     }
     .section-header.has-bottom-sep::before {
         width: 250px;
@@ -2149,9 +2149,11 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__scroll {
         bottom: 5.4rem;
+        right: 4rem;
     }
     .home-content__line {
         height: 7.2rem;
+        right: 2rem;
     }
 }
 
@@ -2172,12 +2174,17 @@ html.no-csstransitions .home-content__main {
     .home-content__buttons {
         padding-top: 1.2rem;
     }
+
     .home-content__buttons .btn {
         width: auto;
         margin: 1.5rem 0 0 0;
     }
     .home-social {
-        display: none;
+        top: 14rem;
+        right: 2rem;
+        -webkit-transform: translate3d(0, -50%, 0);
+        -ms-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
     }
 }
 
@@ -2358,6 +2365,7 @@ html.no-csstransitions .home-content__main {
     }
     .about__line {
         height: 7.2rem;
+        right: 2rem;
     }
 }
 
