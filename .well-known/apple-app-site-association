@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": {
+            "J8U7YD67VC.be.itsme.poc.itsnfc": {
+                "paths": [
+                    "/test",
+                ]
+            }
+        }
+    },
+    "activitycontinuation": {
+        "apps": ["J8U7YD67VC.be.itsme.poc.itsnfc"],
+    }
+}
